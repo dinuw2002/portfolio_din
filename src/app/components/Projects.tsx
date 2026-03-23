@@ -18,12 +18,13 @@ export const myProjects = [
     live: "https://cinescope-zeta-opal.vercel.app/"
   },
   {
-    title: "Kanban Task Board",
-    description: "Focused on advanced React state management, allowing users to drag and drop tasks across different progress columns.",
-    tags: ["React", "TypeScript", "Dnd-Kit", "Local Storage"],
-    github: "#",
-    live: "#"
-  }
+  title: "IronCorp Fitness",
+  image: "/projects/gym.jpg",
+  description: "A premium gym landing page focused on UI/UX excellence, featuring fluid animations with Framer Motion and a fully responsive design for all devices.",
+  tags: ["React", "Framer Motion", "Tailwind CSS", "UI/UX"],
+  github: "https://github.com/dinuw2002/Gym_Site",
+  live: "https://gym-landing-site.vercel.app/"
+}
 ];
 
 export default function Projects() {
