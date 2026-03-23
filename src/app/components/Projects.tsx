@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 export const myProjects = [
   {
     title: "TechShop MERN E-Commerce",
-    image: "/projects/techshop.jpg",
+    image: "/projects/techshop.png",
     description: "A comprehensive full-stack platform featuring JWT authentication, an admin dashboard, and Redux state management for seamless shopping.",
     tags: ["MongoDB", "Express", "React", "Node.js", "Redux", "JWT"],
     github: "https://github.com/dinuw2002/Ecommerce_app", 
@@ -19,7 +19,7 @@ export const myProjects = [
   },
   {
   title: "IronCorp Fitness",
-  image: "/projects/gym.jpg",
+  image: "/projects/gym.png",
   description: "A premium gym landing page focused on UI/UX excellence, featuring fluid animations with Framer Motion and a fully responsive design for all devices.",
   tags: ["React", "Framer Motion", "Tailwind CSS", "UI/UX"],
   github: "https://github.com/dinuw2002/Gym_Site",
