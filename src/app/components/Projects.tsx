@@ -6,7 +6,7 @@ export const myProjects = [
     image: "/projects/techshop.png",
     description: "A comprehensive full-stack platform featuring JWT authentication, an admin dashboard, and Redux state management for seamless shopping.",
     tags: ["MongoDB", "Express", "React", "Node.js", "Redux", "JWT"],
-    github: "https://github.com/dinuw2002/Ecommerce_app", 
+    github: "https://github.com/dinuw2002/Ecommerce_app",
     live: "#"
   },
   {

@@ -10,21 +10,31 @@ export default function ProfileImage() {
       whileInView={{ opacity: 1, scale: 1 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: 0.1 }}
-      className="relative flex items-center justify-center"
+      className="relative flex items-center justify-center group"
     >
-      {/* Background Glow Effect (matches our Hero section) */}
-      <div className="absolute -z-10 h-32 w-32 rounded-full bg-blue-600/30 blur-2xl" />
+      
+      <div className="absolute -z-10 h-3/4 w-3/4 rounded-full bg-blue-600/40 blur-3xl transition-all duration-700 group-hover:bg-blue-500/60" />
 
-      {/* Optimized Next.js Image with professional styling */}
-      <div className="rounded-full border-2 border-white/10 p-1.5 backdrop-blur-sm bg-white/5">
-        <Image
-          src="/my_photo1.png" // 1. Path to your file in public/
-          alt="Your Name - Full Stack Developer" // 2. Critical for accessibility/SEO
-          width={200} // 3. Set a specific width (for lazy loading)
-          height={200} // 4. Set a specific height
-          priority // 5. Important for Hero images (LCP optimization)
-          className="rounded-full object-cover aspect-square shadow-xl border border-white/10"
-        />
+      
+      <div className="rounded-full border-2 border-white/10 p-1.5 backdrop-blur-sm bg-white/5 shadow-2xl transition-transform duration-500 group-hover:scale-[1.02]">
+        
+       
+        <div className="relative overflow-hidden rounded-full 
+             w-40 h-40            /* Default (Mobile) */
+             xs:w-48 xs:h-48      /* Very small phones */
+             sm:w-56 sm:h-56      /* Tablets */
+             md:w-64 md:h-64      /* Desktop */
+             lg:w-72 lg:h-72      /* Large Screens */
+        ">
+          <Image
+            src="/my_photo1.png" 
+            alt="Thisila - Full Stack Developer" 
+            fill 
+            priority 
+            sizes="(max-width: 640px) 160px, (max-width: 768px) 224px, 288px"
+            className="object-cover transition-transform duration-700 group-hover:scale-110"
+          />
+        </div>
       </div>
     </motion.div>
   );
