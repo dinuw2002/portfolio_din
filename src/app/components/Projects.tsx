@@ -12,8 +12,8 @@ export const myProjects = [
   {
     title: "CineScope Movie Explorer",
     image: "/projects/cinescope.png",
-    description: "A high-performance movie database using TMDB API. Includes dynamic routing, watchlist persistence, and a polished UI with Tailwind CSS.",
-    tags: ["React", "Tailwind CSS", "REST API", "Context API"],
+    description: "A sophisticated MERN-stack application that redefines movie discovery through Artificial Intelligence. CineScope AI leverages the Gemini API to provide Mood-Based Search, allowing users to find films through natural language descriptions rather than just titles.",
+    tags: ["React", "Tailwind CSS", "REST API", "Context API","Google AI API"],
     github: "https://github.com/dinuw2002/cinescope",
     live: "https://cinescope-zeta-opal.vercel.app/"
   },
